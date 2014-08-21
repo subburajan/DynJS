@@ -1,0 +1,34 @@
+
+/*******************    Context menu    *********************/
+
+div.ctx_menu_bar_cz {
+	width:120;
+	border-left: 1px solid grey;
+	border-top: 1px solid grey;
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	z-index: 12000;
+	cursor: pointer;
+	overflow: hidden;
+	background: url('/ui/sw/_images/hdr/hdr.jpg') repeat;
+}
+
+.ctx_menu_cz {
+	margin-bottom: 10px;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid white;
+}
+
+div.ctx_menu_bar_cz p {
+	font: 15px bold Verdana,Arial,Sans-serif;
+}
+
+div.ctx_menu_bar_cz p:first-letter { 
+	font-size: 17px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,106 @@
+table.langkb_cz { 
+ 	text-align: center;
+  	color: blue;
+  	font-size: 13px;
+	margin-left: 3px;
+}
+
+table.langkb_cz tbody tr th {
+  	background-color: lightblue; 
+  	color: blue;
+  	text-align:center;
+  	height: 25px;
+}
+
+table.langkb_cz tbody tr th:hover {
+  	background-color: white; 
+  	color: blue;
+  	cursor: pointer;
+  	text-align:center;
+}
+
+table.langkb_cz tbody tr td {
+  	background-color: lightblue; 
+  	color: blue;
+  	text-align:center;
+  	height: 25px;
+}
+ 
+table.langkb_cz tbody tr td:hover {
+  	background-color: white; 
+  	color: blue;
+  	cursor: pointer;
+  	text-align:center;
+}
+ 
+input.kbtext_cz {
+ 	margin-top: 2px;
+ 	border: 1px solid lightblue;
+ 	width:100%;
+ 	height:27px;
+ 	align: left;
+ }
+ 
+input.kbimgbutt_cz {
+ 	width: 25px;
+ 	height: 25px;
+ 	border: 1px solid white;
+ 	align: top;
+}
+ 
+.kb_ftr_cz span {
+ 	display: inline-block;
+ 	width: 100%;
+}
+ 
+table.tamed_ftr_cz tr td {
+ 	width: 100%;
+}
+
+
+#lang_tamil_kb_wnd .xwnd-body, #lang_tamil_kb_ext_wnd .xwnd-body {
+	height: auto !important;
+}
+
+.kb_ftr_cz {
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+}
+
+.kb_ftr_cz .left {
+	float: left;
+	width: 600px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#lang_tamil_kb_ext_wnd .kb_ftr_cz .left {
+	width: 320px;
+}
+
+.kb_ftr_cz .right {
+	float: right;
+	margin-right: 10px;
+}
+
+.kb_ftr_cz .right span {
+	width: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.trans-hdr {
+	background: #FFF;
+}
+
+.trans-hdr span {
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.trans-hdr .ed_butt_cz {
+	margin-left: 10px;
+	position: relative;
+	top: 6px;
+}

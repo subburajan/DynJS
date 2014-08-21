@@ -1,0 +1,172 @@
+
+.page {
+	background-color: lightgrey;
+	padding: 5px 0px;
+}
+
+.stage {
+	background-color: #FFF;
+	width: 1100px;
+	margin: 0px auto;
+}
+
+.content {
+	min-height: 700px;
+}
+
+.blog-menu {
+	margin-right :20px !important;
+}
+
+.hdr-top {
+	position: absolute;
+	top: 7px;
+	left: 0px;
+	width: 100%;
+}
+
+.hdr-top .sub-title {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: plain;
+	display: block;
+}
+
+.hdr-top .top-left {
+	float: left;
+	margin-left: 120px;
+}
+
+.hdr-top .top-right {
+	float: right;
+	margin-right: 20px;
+	margin-top: 2px;
+	position: relative;
+}
+
+.top-right span {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 22px;
+	vertical-align: top;
+}
+
+.top-right .separator {
+	margin: 0px 5px;
+}
+
+.top-right span a {
+	text-decoration: none;
+	color: yellow;
+}
+
+.silver-grad {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E8E9EB), color-stop(60%, #FFF));
+    background-image: -moz-linear-gradient(center top, #E8E9EB 0%, #FFF 60%);
+    background-image: -webkit-linear-gradient(center top, #E8E9EB 0%, #FFF 60%);
+    background-image: -o-linear-gradient(center top, #E8E9EB 0%, #FFF 60%);
+    background-image: -ms-linear-gradient(center top, #E8E9EB 0%, #FFF 60%);
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#42888D, endColorstr=#214b6c);*/
+	border: 1px solid lightgrey;
+	border-radius: 10px;	
+	/*box-shadow: 5px 5px 5px 0px #000;*/
+	box-shadow: 5px 5px 10px 0px lightgray;
+	
+}
+
+._content {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+._title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #42888D;
+	text-decoration: underline;
+}
+
+.imp {
+	font-weight: bold;
+}
+
+.imp-star {
+	margin: 0px 2px;
+	color: red;
+}
+
+.err {
+	color: red;
+}
+
+.msg {
+	color: green;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+span.err {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+._content P {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+._content {
+	min-height: 600px;
+	height: auto;
+	padding: 10px;
+	border: 1px solid #42888D;	
+}
+
+._content .box {
+	margin: 30px auto;
+	width: 900px;
+}
+
+.box {
+	position: relative;
+}
+
+.title-1 {
+	color: #42888D;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.para-1 {
+	line-height:25px;
+}
+
+.para-1 span {
+	color: #42888D;
+    font-weight: bold;
+}
+
+.para-1 a {
+    color: #42888D;
+    text-decoration: none;
+}
+
+p.para-2 {
+	line-height:22px;
+}
+
+.para-2 span {
+	color: #42888D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.para-2 a {
+    color: #42888D;
+    text-decoration: none;
+}

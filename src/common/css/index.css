@@ -1,0 +1,41 @@
+
+.bb-home {
+	margin: 0px auto;
+	width: 1100px;
+	height: 590px;
+	cursor: pointer;
+}
+
+.bb-wd-odd {
+	background: url(/ui/sw/_images/home/wd-english-s1.jpg);
+}
+
+.bb-wd-even {         
+	background: url(/ui/sw/_images/home/wd-english-s2.jpg);
+}
+
+.bb-graph-odd {
+	background: url(/ui/sw/_images/home/topology-view.jpg);
+}
+
+.bb-graph-even {
+	background: url(/ui/sw/_images/home/graph-view.jpg);
+}
+
+.index-content {
+	min-height: 250px;
+	padding: 20px;
+}
+
+.index-content a.product {
+	font-size: 15px;
+	font-weight: bold;
+	color: #42888D;
+	text-decoration: none;
+}
+
+a._link {
+	font-size: 14px;
+	color: #42888D;
+	font-weight: bold;
+}

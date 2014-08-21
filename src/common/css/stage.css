@@ -1,0 +1,141 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: auto !important;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.header {
+	height: 120px;
+	color: white;
+}
+
+.header-bg {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #42888D), color-stop(100%, #214b6c));
+	background-image: -moz-linear-gradient(center top, #42888D 0%, #214b6c 100%);
+	background-image: -webkit-linear-gradient(center top, #42888D 0%, #214b6c 100%);
+	background-image: -o-linear-gradient(center top, #42888D 0%, #214b6c 100%);
+	background-image: -ms-linear-gradient(center top, #42888D 0%, #214b6c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#42888D, endColorstr=#214b6c);
+}
+
+.blog-menu {
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+	margin-top: 65px;
+}
+
+.blog-menu ul {
+	list-style: none;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #42888D;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.blog-menu ul li {
+	display: inline-block;
+	height: 100%;
+	min-width: 100px;
+	text-align: center;
+
+    border-radius: 5px;
+    -webkit-border: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.blog-menu ul li + li {
+	border-left: 1px solid lightgrey;
+}
+
+.blog-menu ul li a {
+	color: yellow;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	margin: 0 5px;
+}
+
+.user-menu {
+    display: block;
+    float: right;
+    font-size: 12px;
+    height: auto;
+    left: 4px;
+    min-width: 100px;
+    position: absolute;
+    top: 16px;
+    z-index: 1000;
+    background-color: #42888D;
+    border: 1px solid #42888D;
+}
+
+.user-menu ul {
+	list-style: none;
+	text-align: center;
+	margin: 0px;
+	padding: 3px 10px 8px;
+}
+
+.user-menu ul li {
+	line-height: 20px;
+}
+
+.user-menu a {
+	text-decoration: none;
+	color: yellow;
+}
+
+.hi-name {
+	width: 100px;
+	height: 16px;
+	display: inline-block;
+	overflow: hidden;
+	white-space: pre;
+	text-align:right;
+	cursor: pointer;
+}
+
+.user-menu-arrow {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	color: white;	
+}
+
+.footer-bg {
+	background-color: #42888D;
+}
+
+div.foot-msg {
+	font-size: 12px;
+	font-weight: plain;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	margin: 10px;
+}
+
+div.foot-msg a {
+	color: yellow;
+	text-decoration: none;
+}
+
+div.foot-msg a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+

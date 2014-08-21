@@ -1,0 +1,12 @@
+
+.message-content {
+	height: 100%;
+	border: 1px solid #42888D;
+	padding: 10px;
+	min-height: 600px;	
+}
+
+.message {
+	margin: 30px auto;
+    width: 900px;
+}

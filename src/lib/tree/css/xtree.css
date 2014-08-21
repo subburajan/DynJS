@@ -1,0 +1,65 @@
+
+div.xtree_cz {
+	font-size: 13px;
+	margin-top: 20px;	
+}
+
+div.xtree_cz ul {
+	list-style: none;
+	font: 100% Verdana,Arial,Sans-serif;
+	display: block;
+}
+
+/* Folder close class definition */
+
+li.folder_close_cz a {
+	text-decoration: none;
+}
+
+li.folder_close_cz a span {
+	background-image: url('/ui/sw/_images/xtree/folder-close.png') !important;
+	background-repeat: no-repeat;
+}
+
+/* Folder open class definition */
+li.folder_open_cz a {
+	text-decoration: none;
+}
+
+li.folder_open_cz a span {
+	background-image: url('/ui/sw/_images/xtree/folder-open.png');
+	background-repeat: no-repeat;
+}
+
+li.folder_open_cz ul {
+	list-style: none;
+}
+
+/* File close class definition */
+
+li.file_close_cz a {
+	text-decoration:none;
+}
+
+li.file_close_cz a span {
+	background-image: url('/ui/sw/_images/xtree/file-close.gif');
+	background-repeat: no-repeat;
+}
+
+/* File open class definition */
+
+li.file_open_cz a {
+	cursor: default;
+	text-decoration: none;
+}
+
+li.file_open_cz a span {
+	background-image: url('/ui/sw/_images/xtree/file-open.png');
+	background-repeat: no-repeat;
+}
+
+li.file_close_cz a span, li.file_open_cz a span {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}

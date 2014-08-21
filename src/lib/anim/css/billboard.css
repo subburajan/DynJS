@@ -1,0 +1,12 @@
+
+.billboard {
+	min-width: 700px;
+	min-height: 300px;
+	overflow: hidden;
+}
+
+.billboard div {
+	display: inline-block;
+	background-repeat: no-repeat;
+	height: 100%;
+}

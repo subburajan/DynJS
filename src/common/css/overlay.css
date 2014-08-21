@@ -1,0 +1,68 @@
+.ol {
+	min-height: 300px;
+	position: fixed;
+	border: 1px solid lightgrey;
+	left: 400px;
+	top: 150px;
+	background-color: #FFF;
+}
+
+.ol-hdr {
+	padding: 10px 10px 2px 10px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.ol-title {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.ol-close {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: Arial;
+	color: gray;
+}
+
+.ol-body {
+	margin: 5px;
+}
+
+.ol-ftr {
+	height: 30px;
+	border-top: 1px solid lightgrey;
+	padding: 4px;	
+}
+
+.ol-err {
+	color: red;
+	font-size: 13px;
+	float: left;
+	padding: 10px 4px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.ol-msg {
+	color: green;
+	font-size: 13px;
+	float: left;
+	padding: 10px 4px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.ol-butt {
+	float: right;
+}
+
+.ol-ftr .butt {
+	font-size: 14px;
+    height: 22px;
+    min-width: 70px;
+    padding-top: 4px;
+    margin: 5px;
+}
